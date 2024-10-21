@@ -45,18 +45,19 @@
    					$query = mysqli_query($con, $selectquery);
 
 
-   					while($result = mysqli_fetch_array($query )){
-
+   					while($result = mysqli_fetch_array($query ))
+					{
    				?>
-
-        	            <tr>
-			        		<td><img src="<?php echo $result['img_url'];  ?>" height="70px" width="70px" ></td>
-			        		<td><?php echo $result['name']  ?></td>
-			        	    <td><?php echo $result['phone_number'];  ?></td>
-			        		<td><?php echo $result['department_id'];  ?></td>
-			        		<td><a href="department.php"><i class="fa fa-eye" aria-hidden="true"></i></a></td>
-			        	
-			        	</tr>
+					<tr>
+						<td>
+							<img src="<?php echo !empty($result['sr-images/img_url']) ? $result['sr-images/img_url'] : 'sr-images/sr-me.png'; ?>" height="70px" width="70px">
+						</td>
+						<td><?php echo $result['name']  ?></td>
+						<td><?php echo $result['phone_number'];  ?></td>
+						<td><?php echo $result['department_id'];  ?></td>
+						<td><a href="department.php"><i class="fa fa-eye" aria-hidden="true"></i></a></td>
+					
+					</tr>
 			    <?php
                	}
 

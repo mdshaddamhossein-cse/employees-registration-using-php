@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 21, 2024 at 03:44 PM
+-- Generation Time: Oct 21, 2024 at 04:24 PM
 -- Server version: 10.4.8-MariaDB
 -- PHP Version: 7.1.32
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `ngicon_task`
+-- Database: `employees_department`
 --
 
 -- --------------------------------------------------------
@@ -63,8 +63,8 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`employee_id`, `name`, `email`, `department_id`, `phone_number`, `address`, `img_url`) VALUES
-(1, 'Md Shaddam Hossein', 'srsaddamkhan@gmail.com', '12001', '01744882708', 'Rangpur', 'Sr img'),
-(2, 'Saddam Khan', 'srsaddamkhanbd@gmail.com', '12002', '01842824782', 'Rangpur', 'Sr img2'),
+(1, 'Md Shaddam Hossein', 'mdshaddamhossein.cse@gmail.com', '12001', '01744882708', 'Rangpur', ''),
+(2, 'Saddam Khan', 'srsaddamkhanbd@gmail.com', '12002', '01842824782', 'Rangpur', 'sr-me.png'),
 (3, 'Sagor', 'sagor@gmail.com', '12003', '01912313734', 'Rangpur', ''),
 (4, 'Md Shaddam Hossein', 'srsaddamkhan@gmail.com', '12004', '01912313734', 'Rangpur', ''),
 (5, 'Md Sojon Ahmed', 'sojonsir@gmail.com', '12005', '01912313734', 'Rangpur', '');
