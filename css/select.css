@@ -1,0 +1,43 @@
+.main-div{
+
+    width: 100 vw;
+    height: 100 vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.sub-div{
+
+    width: 60 vw;
+    height: 60 vh;
+
+}
+
+h3{ 
+
+    text-align: center; 
+    font-size: 25px; 
+}
+.sub-div table{
+           
+    text-align: center;
+}
+.sub-div thead{
+
+    width: 100%;
+    height: 60px;
+    background-color: #00a8ff;
+}
+.sub-div th{
+    border: 1px solid white;
+    font-size: 20px;
+    padding: 5px;
+    color: white;
+}
+.sub-div td{
+    border: 1px solid black;
+}
+.sub-div td i{
+    width: 40px;
+}
